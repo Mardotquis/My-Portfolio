@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#index {
+  font-family: "Poppins", sans-serif;
+}
+
+#index .welcome a,
+.name-logo a {
+  text-decoration: none;
+}
+#index .welcome a {
+  color: white;
+}
+
+header i {
+  font-size: 5em;
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  transform: translateX(-50%);
+  color: #bf9f66;
+}
+/* name and welcome */
+
+.navbar {
+  position: fixed;
+  right: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  font-size: 1.6em;
+}
+
+#index .navbar ul li a {
+  padding: 0 1em;
+  text-decoration: none;
+  color: #000;
+  border-left: white 3px solid;
+}
+/* NEED HELP !!! */
+
+.navbar .hidden-nav {
+  display: none;
+}
+.navbar .hidden-nav a:hover {
+  display: block;
+  color: red;
+}
+
+/* NEED HELP !!! */
+
+#index header {
+  background-image: url("../img/hero01.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  z-index: -1;
+}
+/* background hero */
+
+.name-logo {
+  position: fixed;
+  top: 0;
+  font-size: 3.25em;
+}
+.name-logo a {
+  color: black;
+
+  border-bottom-width: 60%;
+}
+.active {
+  margin-bottom: 10%;
+  padding-bottom: 1%;
+  border-bottom: white 3px solid;
+}
+
+#index h1 {
+  font-size: 9vw;
+
+  max-width: 60vw;
+  text-transform: uppercase;
+  color: #bf9f66;
+  position: absolute;
+
+  top: 15%;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+/* JUST A KID ... */
+
+#index .welcome {
+  font-size: 5em;
+  position: absolute;
+  left: 50%;
+  top: 72%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  border-bottom: #bf9f66 5px solid;
+}
+/* WELCOME BUTTON */
+
+#index main {
+  height: 70vh;
+  margin-top: 2%;
+}
+/* MAKES HOME VIEWPORT HEIGHT 80 */
+
+body {
+  background: black;
+}
+/* BACKGROUND COLOR OF HOME BODY */
+
+#index h3 {
+  display: block;
+  color: #fff;
+  font-size: 4em;
+  width: 45%;
+  float: right;
+}
+#index .home-picture {
+  max-width: 45%;
+  text-align: center;
+}
+
+#index .home-picture img {
+  height: 40vh;
+  margin: 2% 5%;
+  border-radius: 5% 20%;
+}
+#index .home-picture figcaption {
+  color: white;
+  display: block;
+}
+#index main p {
+  color: white;
+}
+
+/* INDEX ENDS */
+#bio .name-logo a,
+#bio .navbar li a {
+  color: #bf9f66;
+}
+#bio body {
+  color: white;
+}
+#bio header {
+}
+
+.navbar ul li a {
+  padding: 0 1em;
+  text-decoration: none;
+  color: #000;
+  border-left: white 3px solid;
+}
+
+/* FOOTER STARTS */
+
+footer {
+  height: 20vh;
+  background: white;
+  clear: both;
+  position: relative;
+  bottom: 0;
+  color: black;
+}

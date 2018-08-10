@@ -607,6 +607,13 @@ main {
   font-size: 4em;
 }
 
+#contact .error {
+  background-color: #d63230 !important;
+  opacity: 0.5;
+  font-size: 3em;
+  border: none;
+}
+
 #contact main {
   line-height: 2;
 }
@@ -628,6 +635,16 @@ main {
 
 #contact main form legend {
   font-size: 2em;
+}
+
+#contact main form legend .formvalid {
+  display: none;
+}
+
+#contact main form legend span {
+  color: #d63230;
+  display: block;
+  margin-bottom: 1em;
 }
 
 #contact main form label,
@@ -661,7 +678,7 @@ main {
 #contact main form input,
 #contact main form textarea {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   background-color: #000;
   outline-color: #737373;
   color: white;
@@ -669,6 +686,7 @@ main {
   border: none;
   border-bottom: 3px solid #bf9f66;
   resize: none;
+  font-size: 1.25em;
 }
 
 #contact main form ::-webkit-input-placeholder {

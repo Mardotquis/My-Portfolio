@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/newstyles.css">
 
-    <!-- <link rel="stylesheet" href="assets/css/temp.css"> -->
-
 </head>
 
 <body>
@@ -79,14 +77,18 @@
             </ul>
         </section>
 
-        <!-- <section class="contact__form">
+        <section class="contact__form">
             <h2>Want to get in touch?</h2>
 
-            <form method="GET" target="_blank" action="index.html">
+            <form method="GET" target="_blank" action="index.html" name="contactForm">
                 <fieldset>
-                    <legend>Hit me up!</legend>
+                    <legend>Hit me up!
+                        <span>**all fields required**</span>
+                        <span class="formvalid">please check your entries and try again...</span>
+                    </legend>
                     <label for="fName">First Name</label>
-                    <input type="text" name="firstName" id="fName">
+                    <input type="text" name="firstName" id="fName" value="">
+                    <!--test-->
                     <label for="lName">Last Name</label>
                     <input type="text" name="lastName" id="lName">
 
@@ -108,7 +110,7 @@
 
 
             </form>
-        </section> -->
+        </section>
 
 
 
@@ -156,6 +158,9 @@
         </div>
 
     </footer>
+    <script src="assets/js/contact.js">
+
+    </script>
 </body>
 
 </html>

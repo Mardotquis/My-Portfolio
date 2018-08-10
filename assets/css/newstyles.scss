@@ -1,6 +1,7 @@
 // BREAKPOINT AT 1000
 $bradius: 5% 20%;
 $color__gold: #bf9f66;
+$color__red: #d63230;
 @mixin height-width {
   height: 100%;
   width: 100%;
@@ -451,6 +452,13 @@ main {
 // CONTACT BEGINS
 #contact {
   @include headers--size();
+  .error {
+    background-color: $color__red !important;
+    opacity: 0.5;
+    font-size: 3em;
+    // display: hidden;
+    border: none;
+  }
   main {
     line-height: 2;
     // display: flex;
@@ -470,6 +478,14 @@ main {
 
       legend {
         font-size: 2em;
+        .formvalid {
+          display: none;
+        }
+        span {
+          color: $color__red;
+          display: block;
+          margin-bottom: 1em;
+        }
       }
 
       label,
@@ -481,7 +497,7 @@ main {
       input,
       textarea {
         width: 100%;
-        padding: 5px;
+        padding: 10px;
         background-color: #000;
         outline-color: #737373;
         color: white;
@@ -490,6 +506,7 @@ main {
         border: none;
         border-bottom: 3px solid #bf9f66;
         resize: none;
+        font-size: 1.25em;
       }
 
       ::placeholder {

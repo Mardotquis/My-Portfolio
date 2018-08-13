@@ -7,87 +7,64 @@ var questionsResult = document.getElementById("questions");
 var checkAgain = document.querySelector(".formvalid");
 
 var required = document.querySelectorAll("label");
-var formValidation = firstNameResult.addEventListener("blur", function() {
-  // alert('hi');w
-  if (firstNameResult.value.length <= 0) {
-    // alert("WHY");
 
+var formValidation = firstNameResult.addEventListener("blur", function() {
+  if (firstNameResult.value.length <= 0) {
+    checkAgain.style.display = "block";
     submitButton.classList.add("error");
     submitButton.disabled = true;
-
-    // return false;
-    // firstName.classList.add("error");
   } else {
+    checkAgain.style.display = "none";
     submitButton.classList.remove("error");
     submitButton.disabled = false;
     return true;
   }
 });
 var formValidation = lastNameResult.addEventListener("blur", function() {
-  // alert('hi');w
   if (lastNameResult.value.length <= 0) {
-    // alert("WHY");
-
+    checkAgain.style.display = "block";
     submitButton.classList.add("error");
     submitButton.disabled = true;
-
-    // return false;
-    // firstName.classList.add("error");
   } else {
+    checkAgain.style.display = "none";
     submitButton.classList.remove("error");
     submitButton.disabled = false;
-    // return true;
   }
 });
 var formValidation = phoneNumResult.addEventListener("blur", function() {
-  // alert('hi');w
   if (phoneNumResult.value.length <= 0) {
-    // alert("WHY");
-
+    checkAgain.style.display = "block";
     submitButton.classList.add("error");
     submitButton.disabled = true;
-
-    // return false;
-    // firstName.classList.add("error");
   } else {
+    checkAgain.style.display = "none";
     submitButton.classList.remove("error");
     submitButton.disabled = false;
-    // return true;
   }
 });
 var formValidation = emailResult.addEventListener("blur", function() {
-  // alert('hi');w
   if (emailResult.value.length <= 0) {
-    // alert("WHY");
-
+    checkAgain.style.display = "block";
     submitButton.classList.add("error");
     submitButton.disabled = true;
-
-    // return false;
-    // firstName.classList.add("error");
   } else {
+    checkAgain.style.display = "none";
     submitButton.classList.remove("error");
     submitButton.disabled = false;
-    // return true;
   }
 });
 var formValidation = questionsResult.addEventListener("blur", function() {
-  // alert('hi');w
   if (questionsResult.value.length <= 0) {
-    // alert("WHY");
-
+    checkAgain.style.display = "block";
     submitButton.classList.add("error");
     submitButton.disabled = true;
-
-    // return false;
-    // firstName.classList.add("error");
   } else {
+    checkAgain.style.display = "none";
     submitButton.classList.remove("error");
     submitButton.disabled = false;
-    // return true;
   }
 });
 
-// if ((formValidation = false)) {
-//   document.getElementsByClassName("formvalid").style.display = "block";
-// }
+if ((formValidation = false)) {
+  document.getElementsByClassName("formvalid").style.display = "block";
+}

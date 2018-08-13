@@ -17,7 +17,7 @@
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   font-weight: bold;
-  border-bottom: #bf9f66 5px solid;
+  border-bottom: #cc9900 5px solid;
 }
 
 #index .welcome a {
@@ -45,7 +45,7 @@
   font-size: 9vw;
   max-width: 60vw;
   text-transform: uppercase;
-  color: #bf9f66;
+  color: #cc9900;
   position: absolute;
   top: 15%;
   font-family: "Poppins", sans-serif;
@@ -143,12 +143,12 @@
   text-decoration: none;
   padding: 20px;
   border-radius: 25px;
-  background-color: #bf9f66;
+  background-color: #cc9900;
 }
 
 #index main .getstarted__link a:hover {
   background-color: #fff;
-  color: #bf9f66;
+  color: #cc9900;
 }
 
 .navbar {
@@ -158,7 +158,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: #bf9f66;
+  background: #cc9900;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   z-index: 1;
@@ -213,7 +213,7 @@ header i {
   top: 85%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  color: #bf9f66;
+  color: #cc9900;
 }
 
 header i:hover {
@@ -222,7 +222,6 @@ header i:hover {
 
 .active {
   padding-bottom: 1%;
-  font-size: 1.5em;
   border-bottom: white 3px solid;
 }
 
@@ -265,7 +264,7 @@ main {
 
 #bio main p::first-letter {
   font-size: 3em;
-  color: #bf9f66;
+  color: #cc9900;
 }
 
 #bio main h1 {
@@ -370,7 +369,7 @@ main {
   text-align: center;
   padding: 0;
   margin: 0;
-  background: #bf9f66;
+  background: #cc9900;
   height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -684,7 +683,7 @@ main {
   color: white;
   background: rgba(0, 0, 0, 0);
   border: none;
-  border-bottom: 3px solid #bf9f66;
+  border-bottom: 3px solid #cc9900;
   resize: none;
   font-size: 1.25em;
 }
@@ -707,7 +706,7 @@ main {
 
 #contact main form .submit {
   margin-top: 2%;
-  background-color: #bf9f66;
+  background-color: #cc9900;
   color: white;
   text-transform: uppercase;
   border-radius: 5% 20%;
@@ -717,7 +716,7 @@ main {
 
 #contact main form .submit:hover {
   background-color: white;
-  color: #bf9f66;
+  color: #cc9900;
   cursor: pointer;
 }
 
@@ -735,7 +734,7 @@ main {
 }
 
 #contact main ul li a:hover {
-  color: #bf9f66;
+  color: #cc9900;
 }
 
 footer {
@@ -789,6 +788,7 @@ footer .footer__icons {
 
 footer .footer__icons small {
   font-size: 1em;
+  color: #fff;
 }
 
 footer .footer__icons small:hover {

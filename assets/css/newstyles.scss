@@ -1,6 +1,6 @@
 // BREAKPOINT AT 1000
 $bradius: 5% 20%;
-$color__gold: #bf9f66;
+$color__gold: #cc9900;
 $color__red: #d63230;
 @mixin height-width {
   height: 100%;
@@ -9,7 +9,7 @@ $color__red: #d63230;
 @mixin gold--button {
   &:hover {
     background-color: #fff;
-    color: #bf9f66;
+    color: #cc9900;
   }
 }
 @mixin headers--size {
@@ -39,7 +39,7 @@ $color__red: #d63230;
     top: 72%;
     transform: translateX(-50%);
     font-weight: bold;
-    border-bottom: #bf9f66 5px solid;
+    border-bottom: #cc9900 5px solid;
   }
 
   header {
@@ -61,7 +61,7 @@ $color__red: #d63230;
     font-size: 9vw;
     max-width: 60vw;
     text-transform: uppercase;
-    color: #bf9f66;
+    color: #cc9900;
     position: absolute;
     top: 15%;
     font-family: "Poppins", sans-serif;
@@ -134,7 +134,7 @@ $color__red: #d63230;
         text-decoration: none;
         padding: 20px;
         border-radius: 25px;
-        background-color: #bf9f66;
+        background-color: #cc9900;
         @include gold--button();
       }
     }
@@ -145,7 +145,7 @@ $color__red: #d63230;
   position: fixed;
   top: 0;
   width: 100%;
-  background: #bf9f66;
+  background: #cc9900;
   justify-content: space-around;
   z-index: 1;
   @media (max-width: 1162px) {
@@ -194,7 +194,7 @@ header {
     left: 50%;
     top: 85%;
     transform: translateX(-50%);
-    color: #bf9f66;
+    color: #cc9900;
     &:hover {
       color: white;
     }
@@ -204,7 +204,7 @@ header {
 .active {
   // margin-bottom: 10%;
   padding-bottom: 1%;
-  font-size: 1.5em;
+  // font-size: 1.5em;
   border-bottom: white 3px solid;
 }
 // NAV BAR CUSTOMIZATIONS END
@@ -308,7 +308,7 @@ main {
         text-align: center;
         padding: 0;
         margin: 0;
-        background: #bf9f66;
+        background: #cc9900;
 
         height: 50px;
         display: flex;
@@ -504,7 +504,7 @@ main {
         // border: none;
         background: rgba(0, 0, 0, 0);
         border: none;
-        border-bottom: 3px solid #bf9f66;
+        border-bottom: 3px solid #cc9900;
         resize: none;
         font-size: 1.25em;
       }
@@ -515,7 +515,7 @@ main {
 
       .submit {
         margin-top: 2%;
-        background-color: #bf9f66;
+        background-color: #cc9900;
         color: white;
         text-transform: uppercase;
         border-radius: $bradius;
@@ -524,7 +524,7 @@ main {
         font-size: 4em;
         &:hover {
           background-color: white;
-          color: #bf9f66;
+          color: #cc9900;
           cursor: pointer;
         }
       }
@@ -537,7 +537,7 @@ main {
           text-decoration: none;
           color: white;
           &:hover {
-            color: #bf9f66;
+            color: #cc9900;
           }
         }
       }
@@ -586,7 +586,7 @@ footer {
       // display: inline-block;
 
       font-size: 1em;
-
+      color: #fff;
       // width: 300px;
       &:hover {
         color: white;

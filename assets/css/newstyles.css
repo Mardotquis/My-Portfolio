@@ -12,7 +12,6 @@
 @media (max-width: 800px) {
   #index .hello__text {
     font-size: 0.1em;
-    color: red;
   }
 }
 
@@ -119,7 +118,6 @@
 @media (max-width: 800px) {
   #index main .home__container .hello__text {
     font-size: 2em;
-    color: red;
   }
 }
 
@@ -398,7 +396,6 @@ main {
   padding: 0;
   margin: 0;
   background: #cc9900;
-  font-size: 0.8em;
   height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;

@@ -9,6 +9,13 @@
   font-family: "Poppins", sans-serif;
 }
 
+@media (max-width: 800px) {
+  #index .hello__text {
+    font-size: 0.1em;
+    color: red;
+  }
+}
+
 #index .welcome {
   font-size: 5em;
   position: absolute;
@@ -109,6 +116,13 @@
   text-align: center;
 }
 
+@media (max-width: 800px) {
+  #index main .home__container .hello__text {
+    font-size: 2em;
+    color: red;
+  }
+}
+
 #index main .home__container .home__picture {
   max-width: 40%;
   text-align: center;
@@ -135,6 +149,12 @@
   width: 100%;
   margin-top: 5%;
   font-size: 3.5em;
+}
+
+@media (max-width: 570px) {
+  #index main .getstarted__link {
+    font-size: 2em;
+  }
 }
 
 #index main .getstarted__link a {
@@ -235,6 +255,12 @@ main {
   padding: 5% 3% 0 3%;
 }
 
+@media (max-width: 500px) {
+  main {
+    margin-top: 10%;
+  }
+}
+
 @media (max-width: 1010px) {
   #bio {
     display: block;
@@ -259,12 +285,13 @@ main {
 
 #bio main p {
   font-size: 1.25em;
-  line-height: 2;
+  line-height: 2.5;
 }
 
 #bio main p::first-letter {
   font-size: 3em;
   color: #cc9900;
+  line-height: 0;
 }
 
 #bio main h1 {
@@ -363,6 +390,7 @@ main {
 #gallery .img__container figure {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
+  margin-bottom: 5%;
 }
 
 #gallery .img__container figure figcaption {
@@ -370,6 +398,7 @@ main {
   padding: 0;
   margin: 0;
   background: #cc9900;
+  font-size: 0.8em;
   height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -388,6 +417,7 @@ main {
   width: 100%;
   display: block;
   border-radius: 5% 20%;
+  margin-bottom: 5%;
   line-height: 0;
 }
 
@@ -398,8 +428,48 @@ main {
   }
 }
 
+@media (max-width: 500px) {
+  #resume main {
+    font-size: 0.5em;
+  }
+  #resume main * {
+    text-align: center;
+  }
+  #resume h1 {
+    font-size: 0.1em;
+  }
+}
+
 #resume main {
+  position: relative;
   line-height: 2;
+}
+
+#resume .download__resume {
+  position: absolute;
+  right: 0;
+  margin-right: 5%;
+  margin-top: 3%;
+  width: 10em;
+  background-color: #737373;
+  text-align: center;
+}
+
+@media (max-width: 350px) {
+  #resume .download__resume {
+    margin-top: 50px;
+  }
+}
+
+#resume .download__resume:hover {
+  background-color: #cc9900;
+}
+
+#resume .download__resume a {
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 #resume h1 {
@@ -581,6 +651,23 @@ main {
   text-align: center;
 }
 
+#projects .main .clickhere {
+  display: block;
+  font-size: 3em;
+  width: 3em;
+  text-align: center;
+  background-color: #cc9900;
+  margin: 0 auto;
+  text-transform: uppercase;
+  border-radius: 5% 20%;
+  color: black;
+  text-decoration: none;
+}
+
+#projects .main .clickhere:hover {
+  background-color: #fff;
+}
+
 #projects .main section {
   margin: 3%;
 }
@@ -688,6 +775,13 @@ main {
   font-size: 1.25em;
 }
 
+@media (max-width: 600px) {
+  #contact main form input,
+  #contact main form textarea {
+    font-size: 1em;
+  }
+}
+
 #contact main form ::-webkit-input-placeholder {
   color: white;
 }
@@ -718,6 +812,18 @@ main {
   background-color: white;
   color: #cc9900;
   cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  #contact main form .submit {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 600px) {
+  #contact main form .submit {
+    font-size: 1em;
+  }
 }
 
 #contact main ul {
